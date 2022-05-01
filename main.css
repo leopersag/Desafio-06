@@ -44,35 +44,6 @@ header div{
     align-items: center;
 }
 
-.nav_actual{
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #606063;
-}
-
-.nav_link{
-    text-decoration: none;
-    color:#2d2d8f;
-}
-
-.home{
-    border-bottom: 3px solid  #d3dfff;
-}
-
-.intro{
-    color: #2d2d8f;
-    font-weight: 600;
-    font-style: italic;
-    font-size: x-large;
-    margin: 0px 15px;
-    text-shadow: 2px 2px 3px white;
-}
-
-nav div ul li{
-    display: inline-block;
-    margin: 5px;
-    border-bottom: 3px solid  #d3dfff;
-}
-
 /* ------------------------------- Estilo del Main --------------------------------- */
 
 main{
@@ -439,26 +410,12 @@ footer div ul li{
 
     header div{
         flex-flow: row wrap;
-        justify-content: space-between;
-    }
-
-    .home{
-        padding: 10px 15px;
-    }
-
-    .home:hover{
-        background-color: #ececec;
-        border-bottom: 3px solid #808080;
+        justify-content:flex-end;
     }
 
     nav div ul li{
         margin: 0px;
         padding: 15px 10px;  
-    }
-
-    nav div ul li:hover{
-        background-color: #ececec;
-        border-bottom: 3px solid #808080;
     }
 
     /* ---Estilo del Main--- */
