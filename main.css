@@ -112,18 +112,18 @@ main .img_fondo{
 }
 
 .Bio_video{
-    background-color: #5c84ce;
     display: flex;
     flex-flow: column wrap;
     justify-content:space-evenly;
     align-items: center;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     text-shadow: 2px 2px 5px black;
     margin: 25px 0px;
 }
 
 .Bio_video_title{
     font-weight: 500;
+    text-align: center;
 }
 
 /* ---Estilo del Main Fotos--- */
@@ -433,8 +433,8 @@ footer div ul li{
     /* ---Estilo del main bio--- */
 
     #Nico_foto{
-        height: 300px;
-        width: auto;
+        width: 30vw;
+        max-width: 350px;
         margin: 0px 2vw;
     }
 
